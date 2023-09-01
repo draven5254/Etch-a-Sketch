@@ -7,12 +7,20 @@
   font-family: "Silkscreen", cursive;
 }
 
+main {
+  margin: 0 auto;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.header {
+  text-align: center;
+}
+
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  margin: 0;
   background-color: #f0f0f0;
   flex-direction: column;
 }
@@ -23,6 +31,11 @@
   font-size: 20px;
   border: none;
   text-transform: uppercase;
+}
+
+#colorPicker {
+  width: 200px;
+  height: 20px;
 }
 
 .grid-container {

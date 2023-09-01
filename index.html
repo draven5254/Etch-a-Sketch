@@ -4,16 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Document</title>
+    <link rel="shortcut icon" href="./img/icon.jpg" type="image/x-icon" />
+    <title>Etch a sketch</title>
   </head>
   <body>
-    <div class="container">
-      <div class="btn-container">
-        <button id="resetButton">Grid size</button>
-        <button id="deleteButton">Reset</button>
+    <main>
+      <header class="header">
+        <div class="logo">
+          <img src="./img/logo-png.png" alt="" />
+        </div>
+      </header>
+      <div class="container">
+        <div class="btn-container">
+          <button id="resetButton">Grid size</button>
+          <button id="deleteButton">Reset</button>
+          <input type="color" id="colorPicker" value="#ff0000" s />
+        </div>
+        <div class="grid-container"></div>
       </div>
-      <div class="grid-container"></div>
-    </div>
+    </main>
     <script src="app.js"></script>
   </body>
 </html>
